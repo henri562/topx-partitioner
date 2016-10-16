@@ -84,7 +84,7 @@ public class TopFiveWordCount {
      */
     private static class StringComparator implements Comparator<String> {
 
-        @Override
+                @Override
         public int compare(String x, String y){
             x = x.replaceAll("[A-Za-z]+", "");
             y = y.replaceAll("[A-Za-z]+", "");
